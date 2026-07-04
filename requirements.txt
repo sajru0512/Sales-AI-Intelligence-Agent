@@ -1,0 +1,25 @@
+# AI-Powered Sales Intelligence Agent - Dependencies
+# Install via: pip install -r requirements.txt
+
+# Agent Framework
+crewai
+crewai-tools
+
+# LLM & AI
+google-generativeai
+
+# Vector Store
+chromadb
+
+# Web Search
+tavily-python
+
+# Web Scraping
+beautifulsoup4
+requests
+
+# PDF Processing
+pdfplumber
+
+# Display (included in Colab/Jupyter)
+ipython
