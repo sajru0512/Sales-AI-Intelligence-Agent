@@ -76,7 +76,7 @@ An AI-powered **Sales Intelligence Agent** built for **XYZ Analytics Consulting*
 ### Knowledge Retrieval (RAG) Pipeline
 
 ```
-PDF Handbook → pdfplumber → Text Chunks → Google Embeddings → ChromaDB
+PDF Handbook → pdfplumber → Text Chunks → Gemini Embeddings → ChromaDB
                                                                   ↓
 Agent Query → Query Embedding → Cosine Similarity Search → Top-K Chunks
 ```
@@ -89,7 +89,7 @@ Agent Query → Query Embedding → Cosine Similarity Search → Top-K Chunks
 |-----------|-----------|---------|
 | **Agent Framework** | CrewAI | Multi-agent orchestration |
 | **LLM** | Google Gemini 2.0 Flash | Reasoning and generation |
-| **Embeddings** | Google text-embedding-004 | Document vectorization |
+| **Embeddings** | Google gemini-embedding-001 | Document vectorization |
 | **Vector Store** | ChromaDB | In-memory vector database |
 | **Web Search** | Tavily API | Real-time web intelligence |
 | **Web Scraping** | BeautifulSoup4 | Website content extraction |
